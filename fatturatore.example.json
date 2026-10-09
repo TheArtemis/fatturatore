@@ -1,0 +1,43 @@
+{
+  "seller": {
+    "vat_number": "00000000000",
+    "tax_code": "CODICEFISCALE",
+    "first_name": "NOME",
+    "last_name": "COGNOME",
+    "tax_regime": "RF19",
+    "address": {
+      "street": "Via Esempio",
+      "number": "1",
+      "postal_code": "00000",
+      "city": "Comune",
+      "province": "RM",
+      "country": "IT"
+    }
+  },
+  "customer": {
+    "vat_number": "00000000000",
+    "tax_code": "00000000000",
+    "name": "CLIENTE ESEMPIO S.R.L.",
+    "recipient_code": "0000000",
+    "pec": "cliente@example.invalid",
+    "address": {
+      "street": "Via Cliente",
+      "number": "1",
+      "postal_code": "00000",
+      "city": "Comune",
+      "province": "RM",
+      "country": "IT"
+    }
+  },
+  "invoice": {
+    "description": "Consulenza",
+    "social_security_rate": "4.00",
+    "stamp_duty": "2.00",
+    "vat_nature": "N2.2",
+    "reasons": [
+      "CAUSALE FISCALE 1",
+      "CAUSALE FISCALE 2"
+    ],
+    "tax_reference": "RIFERIMENTO NORMATIVO"
+  }
+}
